@@ -1,8 +1,7 @@
 # Zoo Management System in Java
-# Object Oriented Programming
 
 # Overview
-This project is a Zoo Management System implemented in Java as part of the Amazon Junior Developer Course (1/7). It demonstrates the use of Object-Oriented Programming (OOP) principles, including abstraction, inheritance, polymorphism, and interfaces, to model animals and their behaviors.
+This project is a Zoo Management System implemented in Java as part of the Amazon Junior Developer Course (1/7). It demonstrates the use of Object-Oriented Programming **(OOP) principles**, including abstraction, inheritance, polymorphism, and interfaces, to model animals and their behaviors.
 
 Users can interact with a console-based menu to manage and explore different animals in the zoo, set their properties, and observe their behaviors like walking, swimming, and eating.
 
@@ -67,15 +66,7 @@ Return to the main menu or exit the program.
 Code Structure
 plaintext
 Copy
-# Edit
-├── Main.java        # Entry point for the program
-├── Animal.java      # Abstract class defining common properties of animals
-├── Tiger.java       # Tiger-specific implementation
-├── Dolphin.java     # Dolphin-specific implementation
-├── Penguin.java     # Penguin-specific implementation
-├── Walk.java        # Interface for walking behavior
-├── Swim.java        # Interface for swimming behavior
-└── Eat.java         # Interface for eating behavior
+
 # Sample Interaction
 
 ******* ZOO ANIMAL choice menu ******
@@ -98,8 +89,6 @@ Enter age: 5
 Enter height: 2
 Enter color: Blue
 Enter swimming speed: 15
-Learning Outcomes
-This project helped in understanding:
 
 
 # Author
