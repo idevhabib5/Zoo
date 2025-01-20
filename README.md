@@ -1,45 +1,45 @@
-# Zoo
- Object Oriented Programming
-Zoo Management System in Java
-Overview
+# Zoo Management System in Java
+# Object Oriented Programming
+
+# Overview
 This project is a Zoo Management System implemented in Java as part of the Amazon Junior Developer Course (1/7). It demonstrates the use of Object-Oriented Programming (OOP) principles, including abstraction, inheritance, polymorphism, and interfaces, to model animals and their behaviors.
 
 Users can interact with a console-based menu to manage and explore different animals in the zoo, set their properties, and observe their behaviors like walking, swimming, and eating.
 
-Features
+# Features
 Animal Classes: Models different animals such as Tiger, Dolphin, and Penguin.
-Interfaces:
+# Interfaces:
 Walk for animals capable of walking.
 Swim for animals capable of swimming.
 Eat for defining eating behaviors.
-Abstract Class:
+# Abstract Class:
 Animal serves as a blueprint for all animals, encapsulating shared properties and methods.
 Dynamic Behavior: Supports setting and displaying attributes specific to each animal type.
 Interactive Menu: Console-based interface to interact with animals.
 OOP Principles Demonstrated
-Abstraction:
+# Abstraction:
 
 Common properties and behaviors of animals are defined in the abstract Animal class.
 Specific behaviors are abstracted into interfaces (Walk, Swim, and Eat).
-Inheritance:
+# Inheritance:
 
 Classes like Tiger, Dolphin, and Penguin inherit properties and behaviors from the Animal class.
-Polymorphism:
+# Polymorphism:
 
 Allows handling different animal types (Tiger, Dolphin, Penguin) using the Animal reference type.
 Implements interface methods specific to each animal.
-Encapsulation:
+# Encapsulation:
 
 All animal properties are private and accessed via getters and setters.
-Installation
-Clone the Repository
+# Installation
+# Clone the Repository
 
 bash
 Copy
 Edit
-git clone https://github.com/your-username/zoo-management-system.git
+git clone https://github.com/idevhabib5/Zoo.git
 cd zoo-management-system
-Compile the Code
+# Compile the Code
 Use javac to compile the Java files:
 
 bash
@@ -67,7 +67,7 @@ Return to the main menu or exit the program.
 Code Structure
 plaintext
 Copy
-Edit
+# Edit
 ├── Main.java        # Entry point for the program
 ├── Animal.java      # Abstract class defining common properties of animals
 ├── Tiger.java       # Tiger-specific implementation
@@ -76,10 +76,8 @@ Edit
 ├── Walk.java        # Interface for walking behavior
 ├── Swim.java        # Interface for swimming behavior
 └── Eat.java         # Interface for eating behavior
-Sample Interaction
-plaintext
-Copy
-Edit
+# Sample Interaction
+
 ******* ZOO ANIMAL choice menu ******
 1. Tiger
 2. Dolphin
@@ -103,13 +101,7 @@ Enter swimming speed: 15
 Learning Outcomes
 This project helped in understanding:
 
-Practical application of OOP principles in a real-world scenario.
-Design and implementation of interactive, modular, and reusable code.
-Dynamic polymorphism and interface-based programming in Java.
-Future Improvements
-Add more animals with unique properties and behaviors.
-Implement a graphical user interface (GUI).
-Save and load animal data to/from a file or database.
-Author
+
+# Author
 Habib Ur Rehman
 Course: Amazon Junior Developer (1/7)
